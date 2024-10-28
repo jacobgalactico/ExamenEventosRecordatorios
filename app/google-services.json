@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "344485131466",
+    "project_id": "exameneventosrecordatorios",
+    "storage_bucket": "exameneventosrecordatorios.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344485131466:android:643efac8d00e641a17f033",
+        "android_client_info": {
+          "package_name": "com.example.exameneventosrecordatorios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzbC8y9eqs-WHQw1bM8987a83yDW9kZXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
