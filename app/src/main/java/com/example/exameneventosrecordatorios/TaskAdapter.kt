@@ -29,15 +29,13 @@ class TaskAdapter(
         // Acción del botón de eliminar
         buttonDeleteTask.setOnClickListener {
             task?.let {
-                Log.d("TaskAdapter", "Attempting to delete task with ID: ${it.id}")
-                dbHelper.deleteTask(it.id)
+                Log.d("TaskAdapter", "Attempting to mark task as done with ID: ${it.id}")
+                dbHelper.markTaskAsDone(it.id)
                 tasks.remove(it)
                 notifyDataSetChanged()
                 onDeleteClick(it)
             }
         }
-
-
 
         return view
     }
